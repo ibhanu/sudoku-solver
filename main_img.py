@@ -1,6 +1,6 @@
 import sys
 import time
-
+from datetime import datetime as dt
 from tensorflow.keras.models import load_model
 
 from settings import *
@@ -79,6 +79,7 @@ def main_process_img(im_path, model, save=False, display=False, use_hough=True, 
                                                            1000 * recreation_duration))
     logger.info("PROCESS DURATION \t{:.2f}s".format(final_time - init0))
     logger.info("EVERYTHING DONE \t{:.2f}s".format(total_time))
+    return
     # print(grid)
     # print(grid_solved)
 
@@ -93,7 +94,7 @@ def main_process_img(im_path, model, save=False, display=False, use_hough=True, 
 if __name__ == '__main__':
     model = load_model('model/my_model.h5')
     f = []
-    for (dirpath, dirnames, filenames) in walk(images_test/test):
+    for (dirpath, dirnames, filenames) in walk("images_test/test"):
         f.extend(filenames)
         break
     im_paths = [
@@ -108,8 +109,26 @@ if __name__ == '__main__':
         "images_test/video_stop.png",  # 8
         "tmp/035.jpg",  # 9
     ]
-    print(f)
-    '''
-    for im_path in f:
-        #main_process_img(im_path, model, save=False, display=True)
-    '''
+    #print(f)
+    t1 = dt.now()
+    for path in f:
+        t2 = dt.now()
+        print()
+        print()
+        print("processing image: ", path)
+        im_path = "images_test/test/"+path
+        try:
+            main_process_img(im_path, model, save=True, display=False)
+            print(dt.now()-t2)
+            print(dt.now()-t1)
+            print()
+            print()
+        except:
+            print("***************************")
+            print("Error has occurred!")
+            print(dt.now()-t2)
+            print(dt.now()-t1)
+            print("***************************")
+            print()
+            print()
+            continue

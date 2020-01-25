@@ -1,5 +1,6 @@
 # Sudoku Solver
 #### Hi, this is team NullCrew.
+![NullCrew Logo](nc_l2.png)
 #### Welcome to Sudoku Solver!
 #### Its all about detecting and directly solving sudoku puzzles in VR.
 

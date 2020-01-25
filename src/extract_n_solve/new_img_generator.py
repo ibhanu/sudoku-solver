@@ -73,7 +73,7 @@ def write_solved_grids(frames, grids_matrix, solved_grids):
                             font, font_scale, (0, 3, 0), thickness * 3)
                 cv2.putText(im_filled_grid, digit,
                             (true_x - int(text_width / 2), true_y + int(text_height / 2)),
-                            font, font_scale, (0, 255, 0), thickness)
+                            font, font_scale, (255, 0, 0), thickness)
         ims_filled_grid.append(im_filled_grid)
     return ims_filled_grid
 

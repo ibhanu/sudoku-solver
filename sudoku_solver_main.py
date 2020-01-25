@@ -31,17 +31,17 @@ def help_save():
 def description():
     warning = 15 * '-' + ' /!\\Quality Work/!\\ ' + 16 * '-'
 
-    welcome_messsage = 'Welcome to Sudoku Solver'
+    welcome_messsage = 'Welcome on Sudoku Solver'
     new_welcome = ' ' * max(int((len(warning) - len(welcome_messsage)) / 2), 0) + welcome_messsage
     little_description = "Sudoku Solver is a cool tool which has 1 only goal :" \
-                         "\n-> Solve a Sudoku Puzzle"
+                         "\n-> Solve a Sudoku"
 
     return warning + "\n" + new_welcome + "\n" + warning + "\n" + little_description + "\n" + warning
 
 
 def parser_generation():
     parser = argparse.ArgumentParser(description=description(),
-                                     epilog=40 * '-' + '\n Rémi LUX\n' + 40 * '-',
+                                     epilog=40 * '-' + '\n Null Crew\n' + 40 * '-',
                                      formatter_class=argparse.RawTextHelpFormatter)
 
     parser.add_argument("-i", "--i_path",

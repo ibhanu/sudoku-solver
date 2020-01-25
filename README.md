@@ -1,7 +1,7 @@
 # Sudoku Solver
-Hi, this is team NullCrew.
-Welcome to Sudoku Solver!
-Its all about detecting and directly solving sudoku puzzles in VR.
+####Hi, this is team NullCrew.
+####Welcome to Sudoku Solver!
+####Its all about detecting and directly solving sudoku puzzles in VR.
 
 
 ## What is it doing ?

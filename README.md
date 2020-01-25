@@ -35,16 +35,13 @@ The best way to use the program is to firstly clone the repo.
 Then, open a terminal & go in the repository  
 `cd /path/to/the/folder/`
 
-The required libraries are specified in requirements.txt. Run `pip3 install -r requirements.txt`
+The required libraries are specified in requirements.txt. Run `pip3 install -r requirements.txt`.
 
-
-#### Easy way
-Take your own picture of your process target(Sudoku Puzzle) and use the command
+Take a picture of your process target (Sudoku Puzzle) and use the command
 `python3 sudoku_solver_main.py -i path/to/your/file`  
 Add `-s 1` to save the output result. It will be save in the directory `images_save`.
 In both cases, the result will be displayed in the process.
 
-#### Advanced way
 If you have your own Keras model to identify digits.
 For that use the argument -mp `-mp path/to/your/model` 
 

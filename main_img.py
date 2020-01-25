@@ -94,7 +94,7 @@ def main_process_img(im_path, model, save=False, display=False, use_hough=True, 
 if __name__ == '__main__':
     model = load_model('model/my_model.h5')
     f = []
-    for (dirpath, dirnames, filenames) in walk("images_test/test"):
+    for (dirpath, dirnames, filenames) in walk("images_test/training_dataset"):
         f.extend(filenames)
         break
     im_paths = [
@@ -116,7 +116,7 @@ if __name__ == '__main__':
         print()
         print()
         print("processing image: ", path)
-        im_path = "images_test/test/"+path
+        im_path = "images_test/training_dataset/"+path
         try:
             main_process_img(im_path, model, save=True, display=False)
             print(dt.now()-t2)

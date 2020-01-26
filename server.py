@@ -2,7 +2,7 @@ import cv2
 from main_img import main_process_img
 from tensorflow.keras.models import load_model
 import os
-from flask import Flask, request, redirect, url_for, send_file
+from flask import Flask, request, redirect, url_for, send_file, render_template
 from werkzeug.utils import secure_filename
 
 UPLOAD_FOLDER = 'images_test'

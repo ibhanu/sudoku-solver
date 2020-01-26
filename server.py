@@ -43,7 +43,14 @@ def upload_file():
             if(status):    
                 savedfilename = filename[:-4] + '_solved.jpg'
                 savedfile = 'images_save/' + savedfilename
-                return send_file(savedfile, mimetype='image/jpeg')
+                return(savedfile) 
+                #return send_file(savedfile, mimetype='image/jpeg')
+
+@app.route('/solution', methods = ['GET'])
+def solution():
+    if request.method == 'GET':
+        return render_template(savedfile)
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8123, debug=True)
 

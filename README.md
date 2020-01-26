@@ -1,8 +1,8 @@
 # Sudoku Solver
-#### Hi, this is team NullCrew.
+### Hi, This is Team NullCrew.
 ![NullCrew Logo](nc_l2.png)
-#### Welcome to Sudoku Solver!
-#### Its all about detecting and directly solving sudoku puzzles in VR.
+### Welcome to Sudoku Solver!
+#### Its all about detecting and directly solving sudoku puzzles in VR using [OpenCV](https://opencv.org/) and [TensorFlow](https://www.tensorflow.org/).
 
 
 ## What is it doing ?
@@ -33,13 +33,23 @@ Once grids are extracted, for each grid we do:
 ## How to use?
 
 The best way to use the program is to firstly clone the repo.
+```bash
+git clone https://github.com/ibhanu/sudoku-solver.git
+```
 Then, open a terminal & go in the repository  
-`cd /path/to/the/folder/`
+```bash
+cd /path/to/the/folder/sudoku-solver/
+```
 
-The required libraries are specified in requirements.txt. Run `pip3 install -r requirements.txt`.
+The required libraries are specified in requirements.txt. Run 
+```bash
+pip3 install -r requirements.txt
+```
 
 Take a picture of your process target (Sudoku Puzzle) and use the command
-`python3 sudoku_solver_main.py -i path/to/your/file`  
+```bash
+python3 sudoku_solver_main.py -i path/to/your/file
+```
 Add `-s 1` to save the output result. It will be save in the directory `images_save`.
 In both cases, the result will be displayed in the process.
 
@@ -50,3 +60,7 @@ For that use the argument -mp `-mp path/to/your/model`
 The model is already trained with a dataset of 10k numeric digits
 with data augmentation. It gives a precision of 99.5%
 
+## Authors
+- Abhay R Muni
+- Ashritha C
+- Bhanu Pratap

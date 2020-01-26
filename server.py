@@ -2,7 +2,7 @@ import cv2
 from main_img import main_process_img
 from tensorflow.keras.models import load_model
 import os
-from flask import Flask, request, redirect, url_for, send_file, render_template
+from flask import Flask, request, redirect, url_for, send_file
 from werkzeug.utils import secure_filename
 
 UPLOAD_FOLDER = 'images_test'
@@ -43,14 +43,7 @@ def upload_file():
             if(status):    
                 savedfilename = filename[:-4] + '_solved.jpg'
                 savedfile = 'images_save/' + savedfilename
-                return(savedfile) 
-                #return send_file(savedfile, mimetype='image/jpeg')
-
-@app.route('/solution', methods = ['GET'])
-def solution():
-    if request.method == 'GET':
-        return render_template(savedfile)
-
+                return send_file(savedfile, mimetype='image/jpeg')
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8123, debug=True)
 

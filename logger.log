@@ -2721,3 +2721,23 @@ Grid Solving 		4.5% - 16.73ms
 Image recreation 	2.0% - 07.33ms
 PROCESS DURATION 	0.35s
 EVERYTHING DONE 	0.37s
+Grid(s) found
+Extraction done
+Solving done
+Load Image			7.1% - 36.64ms
+Grid Research 		61.2% - 316.34ms
+Digits Extraction 	25.9% - 133.87ms
+Grid Solving 		1.1% - 05.61ms
+Image recreation 	4.8% - 24.59ms
+PROCESS DURATION 	0.48s
+EVERYTHING DONE 	0.52s
+Grid(s) found
+Extraction done
+Solving done
+Load Image			7.2% - 37.31ms
+Grid Research 		60.2% - 310.22ms
+Digits Extraction 	26.8% - 138.14ms
+Grid Solving 		1.1% - 05.42ms
+Image recreation 	4.7% - 24.01ms
+PROCESS DURATION 	0.48s
+EVERYTHING DONE 	0.52s

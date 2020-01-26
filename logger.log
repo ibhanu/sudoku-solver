@@ -2606,3 +2606,58 @@ EVERYTHING DONE 	0.46s
 Grid(s) found
 Failed during digits extraction
 No grid found
+Grid(s) found
+Extraction done
+Solving done
+Load Image			1.3% - 03.25ms
+Grid Research 		38.8% - 96.28ms
+Digits Extraction 	55.4% - 137.55ms
+Grid Solving 		1.6% - 03.96ms
+Image recreation 	2.9% - 07.15ms
+PROCESS DURATION 	0.24s
+EVERYTHING DONE 	0.25s
+Grid(s) found
+Extraction done
+Solving done
+Load Image			1.4% - 03.51ms
+Grid Research 		42.0% - 107.25ms
+Digits Extraction 	52.0% - 132.83ms
+Grid Solving 		1.8% - 04.69ms
+Image recreation 	2.8% - 07.21ms
+PROCESS DURATION 	0.25s
+EVERYTHING DONE 	0.26s
+Grid(s) found
+Failed during digits extraction
+Grid(s) found
+Extraction done
+Solving done
+Load Image			1.3% - 03.27ms
+Grid Research 		38.8% - 97.54ms
+Digits Extraction 	54.9% - 137.88ms
+Grid Solving 		1.9% - 04.72ms
+Image recreation 	3.1% - 07.76ms
+PROCESS DURATION 	0.25s
+EVERYTHING DONE 	0.25s
+No grid found
+No grid found
+Grid(s) found
+Extraction done
+Solving done
+Load Image			1.2% - 03.31ms
+Grid Research 		44.5% - 118.56ms
+Digits Extraction 	49.1% - 130.93ms
+Grid Solving 		2.4% - 06.40ms
+Image recreation 	2.8% - 07.41ms
+PROCESS DURATION 	0.26s
+EVERYTHING DONE 	0.27s
+Grid(s) found
+Extraction done
+Solving done
+Load Image			1.3% - 03.45ms
+Grid Research 		42.9% - 113.32ms
+Digits Extraction 	48.4% - 128.09ms
+Grid Solving 		4.5% - 11.89ms
+Image recreation 	2.9% - 07.64ms
+PROCESS DURATION 	0.26s
+EVERYTHING DONE 	0.26s
+No grid found
